@@ -1,0 +1,12 @@
+/__pycache__/
+/in-dir/
+/out-dir/
+/out2-dir/
+/checked/
+*.bat
+*.txt
+*.pyc
+*.md
+*.md~
+*.py~
+*.*~
