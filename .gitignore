@@ -6,7 +6,6 @@
 *.bat
 *.txt
 *.pyc
-*.md
 *.md~
 *.py~
 *.*~
