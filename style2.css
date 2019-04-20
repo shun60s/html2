@@ -1,0 +1,59 @@
+.center_1
+   {
+   text-align: center;
+   }
+
+.right_1 
+   {
+   text-align: right;
+   }
+   
+.left_1 
+   {
+   text-align: left;
+   }
+.gletter_bolder
+   {
+   font-weight: bolder;
+   }
+   
+.gletter_small
+   {
+   font-size: small;
+   }
+.gletter_large
+   {
+   font-size: large;
+   }
+.gletter_xlarge
+   {
+   font-size: x-large;
+   }
+
+.gletter_uline
+   {
+   text-decoration: underline;
+   }
+.gletter_i
+   {
+   font-style: italic; 
+   }
+table.width1 {
+             width:100%;
+             table-layout: fixed;
+             }
+             
+table.kind1 {
+             border: solid thin;
+            }
+            
+td.line1    {
+             vertical-align: top;
+             text-align: left; 
+             border: solid thin;
+             padding: 2px 5px;
+             }
+li {
+  padding-top: 4px;
+  padding-bottom: 5px
+   }
