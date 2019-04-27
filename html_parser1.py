@@ -31,6 +31,7 @@ class Class_TestParser1(HTMLParser):
         self.list_span =[]
         self.list_meta =[]
         self.list_a =[]
+        self.list_img =[]
         self.list_misc= []
         
         self.dic['font']  = self.list_font
@@ -44,6 +45,7 @@ class Class_TestParser1(HTMLParser):
         self.dic['span']  = self.list_span
         self.dic['meta']  = self.list_meta
         self.dic['a']     = self.list_a
+        self.dic['img']   = self.list_img
         self.dic['misc']  = self.list_misc
         
         
@@ -89,6 +91,9 @@ class Class_TestParser1(HTMLParser):
         elif tag == 'a':
             if attrs not in self.list_a:
                 self.list_a.append( attrs )
+        elif tag == 'img':
+           if attrs not in self.list_img:
+                self.list_img.append( attrs )
         else:  # misc これだけ tagが入っている
             if tag not in self.list_misc:
                 self.list_misc.append( tag )
